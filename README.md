@@ -2,7 +2,7 @@
 Assessment for Senior Laravel Developer
 </h1>
 
-**Output**: All tasks should be committed to a Github repo, using best practices for commits. Once complete, please email a link to the repository to mbowyer@tariffcom.com. If you have created a private repository, please add mchlbwyr as a contributor.
+**Output**: All tasks should be committed to a Github repo, using best practices for commits. Once complete, please email a link to the repository to mbowyer@tariffcom.com. If you have created a private repository, please add mchlbowyer as a contributor.
 
 ## Level 1
 
@@ -43,8 +43,8 @@ mysql> show columns from users;
 
 ### Instructions
 
-1. Start a new project in Laravel 10
-1. Implement the default login feature using the [laravel/breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze) package using the Inertia stack with Vue.
+1. Start a new project in Laravel 11
+1. Implement the default login feature using the [laravel/breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze) package using the Inertia stack with Vue.
 1. Add a page to list all users (users.index) in a table.
 1. Add a page to display a single user (users.show).
 1. Add a page to display the form to create a new user (users.create).
