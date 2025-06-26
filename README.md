@@ -43,7 +43,7 @@ mysql> show columns from users;
 
 ### Instructions
 
-1. Start a new project in Laravel 11
+1. Start a new project in Laravel 12
 1. Implement the default login feature using the [laravel/breeze](https://laravel.com/docs/11.x/starter-kits#laravel-breeze) package using the Inertia stack with Vue.
 1. Add a page to list all users (users.index) in a table.
 1. Add a page to display a single user (users.show).
@@ -92,9 +92,9 @@ mysql> show columns from users;
 	| updated_at | timestamp       | YES  |     | NULL    |                |
 	+------------+-----------------+------+-----+---------+----------------+
 	```
-1. Generate an Eloquent Model file `app/Detail.php`.
-1. Assign a one-to-many relationship between `App\User` model and `App\Detail` model.
-1. Create an Event and listener on the `App\User` Eloquent Model's `saved` event.
+1. Generate an Eloquent Model `Detail`.
+1. Assign a one-to-many relationship between the `User` model and `Detail` model.
+1. Create an Event and listener on the `User` Eloquent Model's `saved` event.
 	1. The listener should save to a table called `details` the following information:
 		1. The user's full name based on `firstname`, `middlename`, and `lastname`.
 		1. The user's middle initial based on abbreviating the `middlename`.
